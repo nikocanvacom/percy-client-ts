@@ -4,7 +4,7 @@
   "main": "src/app.ts",
   "license": "MIT",
   "scripts": {
-    "check-build": "ts-node wait_for_build.ts"
+    "check-build": "NODE_OPTIONS=\"${NODE_OPTIONS} --trace-warnings --unhandled-rejections=strict\" ts-node wait_for_build.ts"
   },
   "// try 1.0.0-beta.76  // @percy/client": "1.0.0-beta.76",
   "// try upgraing 1.7.2 // @percy/client": "1.7.2",
