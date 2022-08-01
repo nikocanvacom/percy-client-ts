@@ -102,3 +102,17 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# Backup files
+*.DS_Store
+*~
+*.orig
+[#]*[#]
+.[#]*
+
+
+# IntelliJ IDEA
+# Libraries and modules are generated from Maven, so only code style,
+# inspection profiles etc are checked in.
+**/.idea/**

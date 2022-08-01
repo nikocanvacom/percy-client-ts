@@ -1,0 +1,21 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "license": "MIT",
+  "scripts": {
+    "check-build": "ts-node wait_for_build.ts"
+  },
+  "// try 1.0.0-beta.76  // @percy/client": "1.0.0-beta.76",
+  "// try upgraing 1.7.2 // @percy/client": "1.7.2",
+  "dependencies": {
+    "@percy/client": "1.0.0-beta.76",
+    "@types/node": "^18.6.2",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "node": "^14.0.0"
+  }
+}
